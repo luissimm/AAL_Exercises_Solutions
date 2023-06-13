@@ -1,0 +1,4 @@
+The Message Routing Architecture was downloaded from:
+http://lavag.org/topic/14566-message-routing-architecture/
+
+To start using the framework load the project and open the [Module Tree].vi. All of the instructions are in the block diagram. The diagrams and instructions are inside the cases of the case structure.

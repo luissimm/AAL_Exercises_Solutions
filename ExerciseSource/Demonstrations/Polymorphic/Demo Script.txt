@@ -1,0 +1,5 @@
+1.  Create a new polymorphic VI
+2.  Add the three instance VIs in this directory to the polymorphic VI
+3.  Illustrate the differences between the menu and selector names in the polymorphic
+VI editor.
+3.  use the polymorphic VI on a blank block diagram showing the students the instances inside the VI.

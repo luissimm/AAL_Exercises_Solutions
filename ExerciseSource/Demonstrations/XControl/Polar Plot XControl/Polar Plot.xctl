@@ -1,0 +1,93 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<XControl LVVersion="9008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-&gt;!!!*Q(C=T:3R&lt;B."%)&lt;H%)J)&amp;&lt;EDEAOQ]Q,2J+6"4J%(=-%,4/]KL5-5="J%/ZVL6`3G3/C1JH*P+23U@A.EPFPPX&gt;FRAF/!R+\XP0@0\MSXMXMLEMI,E??SX&amp;8EDS8:KT'T67G-S:[&gt;L!STOL@3K`H6L&amp;FWN$:`4;DMD&lt;#S.T'&lt;TKSRTR[UTSJ\W&gt;PSH\P*8BPKZ&gt;50\$6Z^M.@MYL',GPL&lt;Y)MF`8+\_7H7^EXC/J@NZM'V0:-.+P2OL*NLT/R&lt;H_E&gt;..;HT$`;@'X_#8&lt;[`RNLL^&lt;Z?@B`/8F*XO&amp;N*(`&lt;JX`8@P8&lt;09D_\`L`/Q]@TP0&lt;S0-.I=X^OXPZZ[^7N[;5?2*H`&gt;QZ["`8%3+2%I,GN/-JGFVSU!0^%!0^%!0&gt;%&gt;X&gt;%&gt;X&gt;%&gt;X&gt;%-X&gt;%-X&gt;%-X&gt;%68&gt;%68&gt;%88]J)J+\KA#\JION##Y%'AQ'HA)"A-CA30A#@A#8A#(FYFY!FY!J[!*_"BC!1]!5`!%`!%0%S4A#@A#8A#HI!(6YEE5E7(*_$"P4A]$I`$Y`!Y0)15B]="=))ZDBUH9)BD&gt;$I/D]0D].!6B]@B=8A=(I=(MTA]$I`$Y`!Y0%R*7@&amp;%5V:U?(!D"I`"9`!90!90LM8A-8A-(I0(Y#'='$Q'DQ&amp;B"$3=AS$'*'/!]7,Q'$T]C=&amp;D]"A]"I`"ASHNE+8-F$2F29&gt;(Y6&amp;Y&amp;"[&amp;2_("B3A]#I`#I`!I0,A6B5@B58A5(I7(5+,Q+$Q+DQ+C"#7]+-[5C=IA26"Y_+84IGG80*&amp;IKPH48"V5S1&gt;1]M'3@'!E(Q4*'SRZYS2PC/2%3U[AZ-2)8L$EB5A'F"R9ME0*!W8"=U[&lt;UC;U%?W=VK@V;"V;KZT[FQ=O&amp;AO:T_=SH5ZF-JH);$33]`.T[@@\UOPVJ.0J3+P6KG_L6^26+;J\;5B`&gt;(#X`X81@H.^M&lt;&gt;`7218(QKZ`64)$S_+VZ]`@GO.XZU=DI^@\N].WG=X:U=`&lt;[\?HNZ=PD^F_K`S0\W@(6W."_XL]@(B^S`P4LS=&gt;]X]UE`JL`1\P.ULBI.W-4SY+V&lt;XUP^Q.]IT7;Z&gt;]_4I.R((X*U!!!!!</Property>
+	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
+	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
+	<Property Name="NI.XItem.Name" Type="Str">Polar Plot</Property>
+	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Properties" Type="Folder">
+		<Item Name="Visible Section" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Visible Section</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Visible Section</Property>
+			<Item Name="Polar Plot - Visible Section (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Visible Section (Read Property).vi"/>
+			<Item Name="Polar Plot - Visible Section (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Visible Section (Write Property).vi"/>
+		</Item>
+		<Item Name="Font Type" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Font Type</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Font Type</Property>
+			<Item Name="Polar Plot - Font Type (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Font Type (Read Property).vi"/>
+			<Item Name="Polar Plot - Font Type (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Font Type (Write Property).vi"/>
+		</Item>
+		<Item Name="Precision" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Precision</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Precision</Property>
+			<Item Name="Polar Plot - Precision (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Precision (Read Property).vi"/>
+			<Item Name="Polar Plot - Precision (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Precision (Write Property).vi"/>
+		</Item>
+		<Item Name="Format" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Format</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Format</Property>
+			<Item Name="Polar Plot - Format (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Format (Read Property).vi"/>
+			<Item Name="Polar Plot - Format (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Format (Write Property).vi"/>
+		</Item>
+		<Item Name="Plot Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Plot Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Plot Color</Property>
+			<Item Name="Polar Plot - Plot Color (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Plot Color (Read Property).vi"/>
+			<Item Name="Polar Plot - Plot Color (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Plot Color (Write Property).vi"/>
+		</Item>
+		<Item Name="Grid Color" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Grid Color</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Grid Color</Property>
+			<Item Name="Polar Plot - Grid Color (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Grid Color (Read Property).vi"/>
+			<Item Name="Polar Plot - Grid Color (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Grid Color (Write Property).vi"/>
+		</Item>
+		<Item Name="Logarithmic" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Logarithmic</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Logarithmic</Property>
+			<Item Name="Polar Plot - Logarithmic (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Logarithmic (Read Property).vi"/>
+			<Item Name="Polar Plot - Logarithmic (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Logarithmic (Write Property).vi"/>
+		</Item>
+		<Item Name="Clip To Minimum?" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Clip To Minimum?</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Clip To Minimum?</Property>
+			<Item Name="Polar Plot - Clip To Minimum (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Clip To Minimum (Read Property).vi"/>
+			<Item Name="Polar Plot - Clip To Minimum (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Clip To Minimum (Write Property).vi"/>
+		</Item>
+		<Item Name="Minimum" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Minimum</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Minimum</Property>
+			<Item Name="Polar Plot - Minimum (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Minimum (Read Property).vi"/>
+			<Item Name="Polar Plot - Minimum (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Minimum (Write Property).vi"/>
+		</Item>
+		<Item Name="Maximum" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Maximum</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Maximum</Property>
+			<Item Name="Polar Plot - Maximum (Read Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Maximum (Read Property).vi"/>
+			<Item Name="Polar Plot - Maximum (Write Property).vi" Type="Property VI" URL="../Properties/Polar Plot - Maximum (Write Property).vi"/>
+		</Item>
+	</Item>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Polar Plot - Set User Font (Method).vi" Type="Method VI" URL="../Methods/Polar Plot - Set User Font (Method).vi"/>
+		<Item Name="Polar Plot - Get User Font (Method).vi" Type="Method VI" URL="../Methods/Polar Plot - Get User Font (Method).vi"/>
+	</Item>
+	<Item Name="Abilities" Type="Folder">
+		<Item Name="Polar Plot - State.ctl" Type="Ability VI" URL="../Abilities/Polar Plot - State.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="Polar Plot - Init.vi" Type="Ability VI" URL="../Abilities/Polar Plot - Init.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Init</Property>
+		</Item>
+		<Item Name="Polar Plot - Facade.vi" Type="Ability VI" URL="../Abilities/Polar Plot - Facade.vi">
+			<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
+		</Item>
+		<Item Name="Polar Plot - Data.ctl" Type="Ability VI" URL="../Abilities/Polar Plot - Data.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Polar Plot Property Pages.vi" Type="VI" URL="../SubVIs/Polar Plot Property Pages.vi"/>
+	</Item>
+</XControl>

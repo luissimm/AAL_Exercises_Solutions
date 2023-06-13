@@ -1,0 +1,9 @@
+Unzip the files in Error Constant.zip to the following location:
+<Program Files>\LabVIEW 2011\vi.lib\ErrorConstant
+ 
+The files should appear directly in that directory, not in a subdirectory. If the file is unzipped anywhere else, LabVIEW may be unable to find missing files.
+ 
+You can then open the following VI to see the error cluster constant in several configurations.
+<Program Files>\LabVIEW 2011\vi.lib\ErrorConstant\Error Constant_TEST.vi
+ 
+To drop this constant on your own diagrams, select "VI from disk..." in the Functions palette and select the "Error Constant.xnode" file from the <Program Files>\LabVIEW 2011\vi.lib\ErrorConstant directory. You can also edit your palette set to include this file.

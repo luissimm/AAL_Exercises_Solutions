@@ -1,0 +1,84 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033\deflangfe1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+{\*\generator Msftedit 5.41.15.1507;}\viewkind4\uc1\pard\nowidctlpar\sa120\b\f0\fs36 Asynchronous Message Communication Reference Library Readme\par
+\b0\fs18 December 2009\par
+Version 2.1\par
+\par
+This file contains important information about the Asynchronous Message Communication (AMC) reference library, including:\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 Description\par
+\f1\'b7\tab\f0 Supported LabVIEW targets\par
+\f1\'b7\tab\f0 Revision history\par
+\f1\'b7\tab\f0 Installation and compatibility issues\par
+\f1\'b7\tab\f0 New features and bug fixes\par
+\f1\'b7\tab\f0 Licensing\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 Description\par
+\b0\fs18 This reference library includes a collection of VIs that are used to exchange messages and commands between different processes within an application. These processes can be running on one target or be placed on different targets connected over an Ethernet network.\par
+It provides an API for:\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 Creating and managing message queues\par
+\f1\'b7\tab\f0 Sending messages to another message queue/process\par
+\f1\'b7\tab\f0 Reading messages from the local message queue\par
+\f1\'b7\tab\f0 Starting and managing a network message dispatcher\par
+\f1\'b7\tab\f0 Querying a remote message dispatcher\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120 The API VIs are accessible from the LabVIEW user library menu. \par
+\par
+\b\fs22 Supported Targets\par
+\b0\fs18 This reference library is compatible with the following LabVIEW 8.6 (or later) targets\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 LabVIEW for Windows Vista/XP/2000\par
+\f1\'b7\tab\f0 LabVIEW Real-Time\par
+\f1\'b7\tab\f0 LabVIEW Touchpanel\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120 The API library and installed examples may be compatible with other LabVIEW targets, but they have not been tested.\par
+\b\fs22 System Requirements\par
+\pard\nowidctlpar\fi-360\li720\b0\f1\fs18\'b7\tab\f0 None\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 Other Software Requirements\par
+\b0\fs18 This component requires the following LabVIEW modules and components to be installed:\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 None\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 Revision History\par
+\trowd\trgaph108\trleft-108\trrh417\trbrdrl\brdrs\brdrw10\brdrcf2 \trbrdrt\brdrs\brdrw10\brdrcf2 \trbrdrr\brdrs\brdrw10\brdrcf2 \trbrdrb\brdrs\brdrw10\brdrcf2 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx1080\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx2070\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx7479\pard\intbl\nowidctlpar\sa120\qc\fs18 Date\cell Version\cell\pard\intbl\nowidctlpar\sa120 Description\cell\row\trowd\trgaph108\trleft-108\trrh710\trbrdrl\brdrs\brdrw10\brdrcf2 \trbrdrt\brdrs\brdrw10\brdrcf2 \trbrdrr\brdrs\brdrw10\brdrcf2 \trbrdrb\brdrs\brdrw10\brdrcf2 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx1080\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx2070\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx7479\pard\intbl\nowidctlpar\sa120\qc\b0 7/18/2009\cell 2.0\cell\pard\intbl\nowidctlpar\sa120 Initial distribution for LabVIEW 8.6\cell\row\trowd\trgaph108\trleft-108\trrh710\trbrdrl\brdrs\brdrw10\brdrcf2 \trbrdrt\brdrs\brdrw10\brdrcf2 \trbrdrr\brdrs\brdrw10\brdrcf2 \trbrdrb\brdrs\brdrw10\brdrcf2 \trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx1080\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx2070\clvertalc\clbrdrl\brdrw10\brdrs\brdrcf2\clbrdrt\brdrw10\brdrs\brdrcf2\clbrdrr\brdrw10\brdrs\brdrcf2\clbrdrb\brdrw10\brdrs\brdrcf2 \cellx7479\pard\intbl\nowidctlpar\sa120\qc 12/17/2009\cell 2.1\cell\pard\intbl\nowidctlpar\sa120 All VIs that could be were made re-entrant to allow for more parallel execution.\par
+Fixed an issue with compiling the AMC dispatcher into an executable.\par
+Increased the maximum network message size from 548 to 65535.\par
+Network messages should now be address using dot notation.  This change allows better performance over static/isolated networks.\cell\row\pard\nowidctlpar\sa120\par
+\b\fs22 Installation\par
+\b0\fs18 You can install this reference library if you have LabVIEW installed.\~ It installs files into the current LabVIEW directory. The programming interface Vis install in the LabVIEW \i user.lib\i0  directory. Examples for the use of the reference library are installed in a subdirectory in the \i user.lib \\AMC\i0  directory. The VI palette installs in the User Libraries palette.\par
+\pard\nowidctlpar\sa200\sl276\slmult1\b\fs22\par
+\pard\nowidctlpar\sa120 Known Issues\par
+\fs20 Installation\par
+\pard\nowidctlpar\fi-360\li720\b0\f1\fs18\'b7\tab\f0 None\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs20 Compatibility\par
+\pard\nowidctlpar\fi-360\li720\b0\f1\fs18\'b7\tab\f0 None\par
+\par
+\pard\nowidctlpar\sa120\b\fs20 Upgrade\par
+\pard\nowidctlpar\fi-360\li720\b0\f1\fs18\'b7\tab\f0 An incorrect dependency to KeyedArray.ctl has been observed when upgrading applications.  If LabVIEW prompts you for this file, select Ignore Item or browse to <labview>\\user.lib\\tools\\Keyed Array\\Tools_KeyedArray KeyedArray.ctl.  Mass compiling your application has also been known to remove this issue.\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 New Features\par
+\b0\fs18 The following items are changes from the previous version:\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 Network messages can now be up to 65535 bytes\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\nowidctlpar\fi-360\li720 Network messages should be addressed in dot notation.\par
+{\pntext\f2\'B7\tab}Most VIs are now re-entrant.\par
+\pard\nowidctlpar\fi-360\li720\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 Bug Fixes\par
+\b0\fs18 The following bugs have been fixed in this version:\par
+\pard\nowidctlpar\fi-360\li720\f1\'b7\tab\f0 None\par
+\pard\nowidctlpar\par
+\pard\nowidctlpar\sa120\b\fs22 Licensing\par
+\pard\b0\fs18 This component is provided under the {\field{\*\fldinst{HYPERLINK "http://ni.com/legal" }}{\fldrslt{\ul ni.com terms of use}}}\ulnone\f0\fs18 .\par
+\pard\keepn\nowidctlpar\sb100\sa100\b\fs22 Copyright\par
+\pard\nowidctlpar\sb100\sa100\b0\fs18\'a9 2009 National Instruments Corporation. All rights reserved.\par
+Under the copyright laws, this publication may not be reproduced or transmitted in any form, electronic or mechanical, including photocopying, recording, storing in an information retrieval system, or translating, in whole or in part, without the prior written consent of National Instruments Corporation.\par
+\pard\keepn\nowidctlpar\sb100\sa100\b\fs22 Trademarks\par
+\pard\b0\fs18 National Instruments, NI, ni.com, and LabVIEW are trademarks of National Instruments Corporation. Refer to the \i Terms of Use\i0  section on ni.com/legal for more information about {\field{\*\fldinst{HYPERLINK "http://digital.ni.com/express.nsf/express?openagent&code=rdtrad"}}{\fldrslt{\ul National Instruments trademarks}}}\ulnone\f0\fs18 .\par
+Other product and company names mentioned herein are trademarks or trade names of their respective companies.\par
+\pard\keepn\nowidctlpar\sb100\sa100\b\fs22 Patents\par
+\pard\b0\fs18 For patents covering the National Instruments products, refer to the appropriate location: \b Help\'bbPatents\b0  in your software, the patents.txt file on your CD, or {\field{\*\fldinst{HYPERLINK "http://www.ni.com/patents"}}{\fldrslt{\ul ni.com/patents}}}\ulnone\f0\fs18 .\par
+\fs20\par
+}
+ 

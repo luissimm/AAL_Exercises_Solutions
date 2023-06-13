@@ -1,0 +1,1 @@
+Refer to the <Exercises>\Advanced Architectures in LabVIEW\Shared directory for the example QDMH implementation used in the Wind Farm Course Project.

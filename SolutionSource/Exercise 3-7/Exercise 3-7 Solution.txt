@@ -1,0 +1,1 @@
+The solution for Exercise 3-7 is located in the <Exercises>\Advanced Architectures in LabVIEW\FGV for User Events directory.
